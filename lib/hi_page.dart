@@ -40,7 +40,7 @@ class _HiPageState extends State<HiPage> {
         "Please provide the response in this format: 'breakfast: ', 'lunch: ', 'dinner: ', 'snacks: '. Do not include any additional text.";
 
     final String apiURL = "https://api.cohere.ai/v1/chat";
-    final String apiKey = "m4W8ffP6CEsAbY94gDku8dJoOfSLKJOcTVpYpSz9";
+    final String apiKey = "";
 
     try {
       final response = await http.post(
